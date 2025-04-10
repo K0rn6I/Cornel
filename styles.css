@@ -107,43 +107,7 @@
     font-size: 0.85rem;
     color: gray;
   }
-  
-  .menu {
-    display: flex;
-    flex-direction: column; /* Aranjează elementele pe verticală */
-    padding: 0;
-  }
-  
-  .menu a {
-    display: flex;
-    align-items: center;  /* Aliniază iconițele și textul pe verticală */
-    padding: 10px;
-    color: #333;
-    text-decoration: none;
-    margin-bottom: 10px; /* Adaugă un mic spațiu între elementele meniului */
-    border-radius: 6px;
-  }
-  
-  .menu a i {
-    margin-left: 10px; /* Spațiu între text și săgeata din dreapta */
-  }
-  
-  .menu a .fa-arrow-right {
-    margin-left: 10px; /* Spațiu între text și iconița din dreapta */
-  }
-  
-  .menu a:hover {
-    background-color: #f0f0f0; /* Schimbă culoarea la hover */
-  }
-  
-  .menu-icon {
-    width: 20px; /* Dimensiune mică pentru imaginea iconiței */
-    height: auto;
-    margin-right: 10px; /* Spațiu între imagine și text */
-  }
-  
-  
-  
+
   .pro-button {
     margin-top: 30px;
     padding: 10px;
@@ -220,28 +184,41 @@
     border-radius: 20px;
     font-size: 14px;
   }
-  /* Stil pentru butonul care deschide și închide tabelul */
-.toggle-table-button {
-  padding: 5px 10px;
-  background-color: #2f80ed;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 12px;
-  margin-top: 10px;
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-.table-container {
-  display: none; /* Ascunde tabelul la început */
-  margin-top: 20px;
-}
-
+  
+  .menu {
+    display: flex;
+    flex-direction: column; /* Aranjează elementele pe verticală */
+    padding: 0;
+  }
+  
+  .menu a {
+    display: flex;
+    align-items: center;  /* Aliniază iconițele și textul pe verticală */
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 10px; /* Adaugă un mic spațiu între elementele meniului */
+    border-radius: 6px;
+  }
+  
+  .menu a i {
+    margin-left: 10px; /* Spațiu între text și săgeata din dreapta */
+  }
+  
+  .menu a .fa-arrow-right {
+    margin-left: 10px; /* Spațiu între text și iconița din dreapta */
+  }
+  
+  .menu a:hover {
+    background-color: #f0f0f0; /* Schimbă culoarea la hover */
+  }
+  
+  .menu-icon {
+    width: 20px; /* Dimensiune mică pentru imaginea iconiței */
+    height: auto;
+    margin-right: 10px; /* Spațiu între imagine și text */
+  }
+  
+  
+  
  
-  
-  
-  
-  
-  

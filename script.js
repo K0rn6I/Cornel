@@ -1,13 +1,14 @@
 document.addEventListener("DOMContentLoaded", function() {
-  const toggleTableButton = document.getElementById('toggleTableButton');
-  const tableContainer = document.getElementById('tableContainer');
-
-  toggleTableButton.addEventListener('click', function() {
-    // Verifică dacă tabelul este vizibil sau nu
-    if (tableContainer.style.display === 'none' || tableContainer.style.display === '') {
-      tableContainer.style.display = 'block'; // Arată tabelul
-    } else {
-      tableContainer.style.display = 'none'; // Ascunde tabelul
-    }
+    const toggleArrow = document.getElementById('toggleArrow');
+    const sidePanel = document.getElementById('sidePanel');
+    
+    // Funcția pentru a deschide/închide panoul
+    toggleArrow.addEventListener('click', function() {
+      if (sidePanel.style.left === "-250px") {
+        sidePanel.style.left = "0";  // Deschide panoul
+      } else {
+        sidePanel.style.left = "-250px";  // Ascunde panoul în stânga
+      }
+    });
   });
-});
+  
